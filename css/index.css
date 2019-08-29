@@ -166,6 +166,7 @@ p {
 }
 header {
   background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .header-desktop {
   display: flex;
@@ -312,6 +313,7 @@ header {
   text-align: center;
   margin: 1em;
   border-bottom: 1px solid #444544;
+  padding: 1em;
 }
 .main {
   margin-top: 2em;
@@ -409,6 +411,77 @@ header {
   font-size: 13px;
   line-height: 1.7;
   text-align: center;
+}
+.half-hero {
+  text-align: center;
+  height: 52vh;
+  padding-top: 9em;
+  padding-bottom: 2.5em;
+  color: #fff;
+}
+.half-hero-body {
+  width: 60%;
+  margin: 0 auto;
+}
+#grad {
+  background-image: linear-gradient(135deg, #667eea, #764ba2);
+}
+.welcome-heading {
+  font-size: 2.3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06rem;
+  margin-bottom: 1em;
+}
+.welcome-desc {
+  margin-bottom: 1em;
+  font-size: 1.8rem;
+}
+.about-btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  background: #17c671;
+  color: #fff;
+  padding: 1.2rem 2.3rem;
+  font-size: 1.6em;
+  border-radius: 3em;
+  line-height: 1.5;
+  margin-right: 0.5em;
+}
+.about-btn-signin {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  background: transparent;
+  color: #fff;
+  padding: 1.2rem 1.75rem;
+  font-weight: 600;
+  font-size: 1.6em;
+  line-height: 1.5;
+  border-radius: 50px;
+  border: 1px solid #fff;
+}
+.about-btn-signin:hover {
+  color: #212529;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 4px 10px rgba(255, 255, 255, 0.25);
+}
+.about-item-desc p {
+  padding: 1em;
 }
 footer {
   color: #22283B;
