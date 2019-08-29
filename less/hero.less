@@ -1,0 +1,60 @@
+
+/* Main Image */
+
+.image-slider {
+	width: 100%;
+	position: relative;
+}
+
+.image-slider img {
+	width: 100%;
+}
+
+/* IMAGE CAROUSEL */
+
+.arrow {
+	border: solid #fff;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	height: 2em;
+	width: 2em;
+	padding: 3px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  top: 50%;
+  right: 1.5em;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  top: 50%;
+  left: 1.5em;
+}
+
+.dot {
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 0.5em;
+	background-color: #999;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.dot:hover {
+	background-color: #000;
+}
+
+.active {
+	background-color: #000;
+}
+
+.navigator {
+	text-align: center;
+}
